@@ -1,0 +1,125 @@
+
+.d1
+{
+	padding-right: 30px;	
+	height: 729px;
+	margin-top: -54px;
+	margin-left: -7.7px;
+	margin-right: -8px;
+	margin-bottom: -9px;
+	background-image: url("image/wl.jpg");
+
+	
+}
+.d2
+{
+	
+	margin-left: 580px;
+	position: relative;
+	top: 30px;
+	width: 375px;
+	height: 424.8px;
+	border-radius: 15px;
+	box-shadow: rgba(1, 256, 1,1.2) -4px 1px 50px 1px;
+	background: linear-gradient(90deg,red,lime,skyblue);
+		animation: bg 7s linear infinite ;
+}
+@keyframes bg
+{
+	100%
+	{
+		filter: hue-rotate(360deg);
+	}
+}
+.mar
+{
+	margin-right: -20px;
+}
+h1
+{
+	text-shadow:0px 0px 18px white;
+	padding-right: 30px;
+	background-image: linear-gradient(144deg,gray 49%, white 50%,black 10%);
+  box-shadow: rgba(1, 1, 1, 3.2) 1PX 1px 100px 1px;
+	width: 100%;
+	color: black;	
+	font-size: 80px;
+}
+
+input
+{
+	background-color: black;
+	text-align: center;
+	color: lime;
+	font-size: 20px;
+	border-radius: 15px 15px 0px 0px;
+	padding-top: 25px;
+	padding-right: 61px;
+	padding-left: 60px;
+	padding-bottom: 25.1px;
+	margin-bottom: 0.5px;
+
+}
+input[type=password]::placeholder{
+	
+color:lime;
+}
+.img1
+{
+	border-radius: 0px 0px 8px 8px;
+}
+
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,white, black 50%,white);
+  border: 0;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow: rgba(1, 1, 1, 3.2) 1PX 1px 100px 1px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 7.6px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-top: -80px;
+  margin-left: 1200px;
+
+}
+
+.button-64:active,
+.button-64:hover {
+	color: white;
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(1, 1, 1);
+  padding: 16px 24px;
+  border-radius: 16px 0px 16px 0px;
+  width: 200px;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
